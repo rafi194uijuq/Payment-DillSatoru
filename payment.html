@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>payment</title>
+    <meta name="description" content="THR">
+    <meta property="og:title" content="THR" />
+    <meta property="og:description" content="THR">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Card-Logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- partial:index.partial.html -->
+    <div class="box">
+        <div class="payment">
+            <h3 class="pay">PEMBAYARAN 👇</h3>
+            <h4 class="pay"><b>━━━━━━━━━━━━━━━━━━━━━━━━</b></h4>
+           <!--<p class="pay"><b>Dana</b></p>
+            <p id="p1" class="pay">08266382984</p>
+            <button class="copy" onclick="copyToClipboard('#p1')">SALIN</button>
+            <br> -->
+           <p class="pay"><b>DANA QR</b></p>
+            <a target="_blank" href="https://telegra.ph/file/048cd1a5c89f559a73548.jpg"><button class="copy">QR DANA</button></a>
+            <br>
+            <p class="pay"><b>GOPAY</b></p>
+            <a target="_blank" href="https://telegra.ph/file/1d243832cf5cb72353306.jpg"><button class="copy">QR GOPAY</button></a>
+            <br>
+            <p class="pay"><b>QRIS</b></p>
+            <a target="_blank" href="https://telegra.ph/file/4d0ca9966851315a52ee2.jpg"><button class="copy">QRIS ALL PAYMENT</button></a>
+            <h4 class="pay"><b>━━━━━━━━━━━━━━━━━━━━━━━━</b></h4>
+            <h3 class="pay">KIRIM BUKTI TF👇</h3>
+            <p class="pay"><b>Send Bukti Tf</b></p>
+            <a href="https://t.me/DillSatoru"><button class="copy">Send Bukti</button></a>
+        </div>
+    </div>
+
+    <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+    </script>
+</body>
+
+</html>
